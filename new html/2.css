@@ -1,0 +1,28 @@
+p{
+    font-size:20px;
+    color:purple;
+    line-height:normal;
+}
+h1{
+    font-size:60px;
+    color:rgb(0, 75, 85);
+    text-transform:uppercase;
+
+}
+h2{
+    font-size:30px;
+    color:rgb(0, 112, 65);
+    text-transform:capitalize;
+}
+.highlight{
+    background-color:gold;
+}
+body{
+    background-color:rgb(199, 240, 241);
+    border:solid 3px rgb(18, 223, 45); 
+    font-family:Arial ;
+
+}
+/* *{
+    border:solid;
+} */

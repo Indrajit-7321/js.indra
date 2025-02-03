@@ -1,0 +1,31 @@
+div{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    background-color:aquamarine;
+     /* transition-property:all;
+    transition-duration:2s;
+    transition-timing-function:ease-in;
+    transition-delay:2s; 
+    transform:rotate(90deg); 
+    position:absolute;
+    top:40px;
+    left:100px;
+     rotate: z 90deg; 
+    transition: all 0.5s ease-in; */
+
+}
+div:hover{
+    background-color:blueviolet;
+    color:azure;
+     /* transform:scalex(2); 
+     transform: rotate(90deg); 
+    transform: translateY(-200px);*/
+} 
+div:active{
+    background-color:pink;
+}
+@keyframes color{
+    from{background-color:red;}
+    to{background-color:green;}
+}
